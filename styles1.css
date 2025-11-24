@@ -1,7 +1,8 @@
 body {
-  background-color: #1a1a1a;
+  background-image: url("/background.jpg");
   color: white;
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 h1 {
   font-size: 48px;
@@ -19,4 +20,7 @@ a.bouton {
   border-radius: 5px;
   font-weight: bold;
   font-size: 18px;
+}
+a.bouton:hover {
+  background-color: rgb(164, 4, 4);
 }

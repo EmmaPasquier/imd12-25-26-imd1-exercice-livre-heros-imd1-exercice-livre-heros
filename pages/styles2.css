@@ -1,22 +1,27 @@
 body {
-  background-color: #1a1a1a;
+  background-image: url("/background.jpg");
   color: white;
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  cursor: url("/cursor.png"), auto;
 }
 h2 {
   font-size: 48px;
   margin-top: 100px;
+  padding: 10px 20px 30px 40px;
 }
 a.bouton {
   display: inline-block;
   padding: 20px 40px;
+  text-align: center;
   background-color: #ffffff;
   color: black;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-h1 {
-  font-size: 48px;
-  margin-top: 100px;
+a.bouton:hover {
+  background-color: rgb(164, 4, 4);
 }
